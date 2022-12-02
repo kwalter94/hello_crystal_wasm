@@ -1,0 +1,19 @@
+name: hello_crystal_wasm
+version: 0.1.0
+
+authors:
+  - Walter Kaunda <walterkaunda@gmail.com>
+
+targets:
+  main.wasm:
+    main: src/main.cr
+
+dependencies:
+  js:
+    github: lbguilherme/crystal-js
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.5.1
+
+license: MIT
